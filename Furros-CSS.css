@@ -515,7 +515,7 @@
  
  /**BESTIARIO**/
  #tca-quimario {
-	width: 900px;
+	width: 1000px;
 	 margin: 0 auto;
  }
  .quimera-book {
@@ -528,7 +528,7 @@
  }
  .tca-furrx {
 	width: 48%;
-	 margin: 2px;
+	 margin: 5px;
 	 max-height: 750px;
 	 background: var(--general);
 	 display: flex;
