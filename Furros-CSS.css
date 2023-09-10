@@ -1465,3 +1465,320 @@
 	 align-items: center;
 	 color: var(--tca);
  }
+
+/**PASE DE BATALLA**/
+ .tca-pasebatalla {
+    width: 750px;
+     margin: 0 auto;
+     background: #000;
+     border: 2px solid var(--general);
+     min-height: 750px;
+     font-size: 13px;
+}
+ .paseb-1 {
+    display: flex;
+     flex-direction: column;
+     width: 100%;
+     box-sizing: border-box;
+     position: relative;
+}
+ .pase-img {
+    width: 750px;
+     height: 500px;
+     position: absolute;
+     background: url(https://i.imgur.com/ZUhylYl.png);
+}
+ .pase-head {
+    width: 100%;
+     border-bottom: 2px solid var(--general);
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 30px;
+     position: relative;
+     box-sizing: border-box;
+     align-items: center;
+}
+ .pase-chap {
+    font-family: 'Archivo Black', sans-serif;
+     font-weight: 800;
+     text-transform: uppercase;
+     color: #282828;
+     letter-spacing: 5px;
+     width: 50%;
+     box-sizing: border-box;
+}
+ .pase-number {
+    font-family: 'Noto Sans Mono', monoscope;
+     color: var(--accent);
+     width: 50%;
+     box-sizing: border-box;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     text-align: right;
+     font-weight: 600;
+}
+ .pase-title {
+    position: relative;
+     width: 100%;
+     padding: 60px 80px;
+     border-bottom: 2px solid var(--general);
+     box-sizing: border-box;
+}
+ .battletitle {
+    font-family: 'EB Garamond', serif;
+     font-size: 48px;
+     color: var(--accent);
+     font-style: italic;
+     letter-spacing: 5px;
+     width: 350px;
+}
+ .paseinfo {
+    display: flex;
+     padding: 20px;
+     border-bottom: 2px solid var(--general);
+     width: 100%;
+     box-sizing: border-box;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+}
+ .paseinfo .info {
+    font-family: 'Noto Sans', sans-serif;
+     color: var(--accent);
+     width: 33%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+ .info b {
+    color: #282828;
+}
+ .pase-hitos {
+    width: 100%;
+     position: relative;
+     box-sizing: border-box;
+     padding: 30px;
+     justify-content: space-around;
+}
+ .pase-hitos .sistema, .pase-hitos .narrativas {
+    width: 100%;
+     padding: 10px;
+     margin: 2px;
+     box-sizing: border-box;
+     display: flex;
+     flex-direction: column;
+}
+ .pase-hitos .narrativas {
+    margin-top: 35px;
+}
+ .pase-hitos .title, .pase-botin .title {
+    font-family: 'EB Garamond', sans-serif;
+     color: #333;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-size: 22px;
+     margin-bottom: 15px;
+     text-align: center;
+}
+ .pase-hitos .hitoexp {
+    width: 100%;
+     max-height: 670px;
+     box-sizing: border-box;
+     display: flex;
+     color: #999;
+     font-family: 'Noto Sans', sans-serif;
+     align-items: center;
+     padding: 30px 0;
+     border-bottom: 2px solid var(--general);
+}
+ .pase-hitos .hitoculta {
+    background: var(--tca2);
+     display: flex;
+     color: #999;
+     font-family: 'Noto Sans', sans-serif;
+     align-items: center;
+     padding: 30px;
+     justif-content: center;
+     text-align: center;
+     border-bottom: 2px solid var(--general);
+}
+ .hitoculta .blocked {
+    width: 100%;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 15px;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #333;
+}
+ .hitoculta .blocked i {
+    font-size: 20px;
+     padding-right: 10px;
+     color: var(--accent);
+}
+ .hitoexp .hito {
+    width: 80%;
+     max-width: 430px;
+     margin-right: 5px;
+}
+ .hitoexp .box-exp {
+    width: 195px;
+     display: flex;
+     align-item: center;
+     flex-wrap: wrap;
+     box-sizing: border-box;
+     justify-content: flex-end;
+}
+ .box-exp .exp {
+    width: 50px;
+     background: var(--accent);
+     color: var(--tca);
+     font-size: 12px;
+     font-family: 'Archivo Black';
+     padding: 6px;
+     text-align: center;
+     margin: 1px;
+}
+ .hitoexp span {
+    font-size: 13px;
+     color: #444;
+     font-family: 'Noto Sans', monoscope;
+}
+ .hitoexp .hitovisto, .hitoexp .tirada-esp {
+    width: 5%;
+     box-sizing: border-box;
+     margin-right: 5px;
+}
+ .hitovisto:before {
+    content:"\f3c6";
+     font-family: "Phosphor";
+     font-size: 20px;
+     color: var(--accent);
+}
+ .hitoexp .tirada-esp:before {
+    content:"\f2b4";
+     font-family: "Phosphor";
+     font-size: 20px;
+     color: var(--accent);
+}
+ .botin-decad {
+    width: 100%;
+     padding: 0px;
+     box-sizing: border-box;
+     display: flex;
+     border-top: 2px solid var(--general);
+     flex-direction: column;
+     justify-content: center;
+}
+ .botin-decad .bd-title {
+    font-family: 'EB Garamond', sans-serif;
+     color: #333;
+     font-weight: 600;
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     font-size: 22px;
+     text-align: center;
+     padding: 50px 0 50px 0;
+     border-bottom: 2px solid var(--general)
+}
+ .botin-decad .bd-tiradas {
+    width: 100%;
+     box-sizing: border-box;
+     background: var(--tca2);
+     font-size: 15px;
+     font-family: 'EB Garamond', serif;
+     color: var(--accent);
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-weight: 500;
+     font-style: italic;
+     padding: 20px;
+     text-align: center;
+     border-bottom: 2px solid var(--general);
+     border-top: 2px solid var(--general);
+}
+ .botin-decad .bd-box {
+    width: 100%;
+     box-sizing: border-box;
+     padding: 30px;
+     display: flex;
+     justify-content: center;
+}
+ .botin-decad .bd-text {
+    width: 100%;
+     box-sizing: border-box;
+     padding: 30px 50px;
+     font-family: 'Noto Sans', sans-serif;
+     text-align: justify;
+     color: #777;
+}
+ .bd-box .bd-dados {
+    width: 50%;
+     display: flex;
+     flex-direction: column;
+     justify-align: center;
+     align-items: center;
+     margin: 0 4px 0 4px;
+}
+ .bd-dados .bd-dtype {
+    font-family: 'Archivo Black', sans-serif;
+     color: #999;
+     font-size: 20px;
+     text-transform: uppercase;
+     text-align: center;
+     letter-spacing: 3px;
+}
+ .bd-dados .dados-box {
+    width: 100%;
+     box-sizing: border-box;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .dados-box .dado-rec {
+    display: flex;
+     width: 100%;
+     box-sizing: border-box;
+     align-items: center;
+     justify-content: space-around;
+     border: 1px solid var(--general);
+}
+ .dado-rec .dado-num {
+    width: 5%;
+     color: var(--accent);
+     font-family: 'Archivo Black', sans-serif;
+     padding: 15px;
+     border-right: 2px solid var(--general);
+     font-size: 20px;
+     text-align: center;
+}
+ .dado-rec .recompensa {
+    width: 95%;
+     text-transform: uppercase;
+     color: #999;
+     font-family: 'Noto Sans Mono', monospace;
+     font-weight: 600;
+     font-size: 12px;
+     padding: 15px;
+     text-align: center;
+}
+ .bd-dados .botin-img {
+    width: 70px;
+     height: 70px;
+     background-image: url(https://i.imgur.com/y3tCLF9.png);
+     background-size: cover;
+     background-position: center;
+}
+ .bd-dados .decad-img {
+    width: 70px;
+     height: 70px;
+     background-image: url(https://i.imgur.com/6Um2saJ.png);
+     background-size: cover;
+     background-position: center;
+}
+ 
