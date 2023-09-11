@@ -1550,7 +1550,7 @@
      align-items: center;
      position: relative;
 }
- .paseinfo .info {
+ .pase-pnexp .info {
     font-family: 'Noto Sans', sans-serif;
      color: var(--accent);
      width: 33%;
