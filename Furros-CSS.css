@@ -448,6 +448,8 @@
 	 text-align: center;
 	 font-family: 'Noto Sans Mono';
  }
+.gea .post-info-2 {background: var(--gea);}
+.terra .post-info-2 {background: var(--terra);}
  .tca-post-4 {
 	width: 100%;
 	 display: flex;
@@ -467,7 +469,7 @@
 	 font-family: 'Noto Sans Mono', monospace;
 	 font-size: 11px;
 	 padding: 5px;
-	 box-sizing: border-bos;
+	 box-sizing: border-box;
 	 color: var(--accent);
 	 text-align: center;
 	 text-transform: uppercase;
@@ -477,6 +479,8 @@
 	 align-items: center;
 	 justify-content: center;
  }
+.gea .lugar, .gea .date {color: var(--gea);}
+.terra .lugar, .terra .date {color: var(--terra);}
  .post4-head .icon {
 	width: 100px;
 	 height: 100px;
@@ -487,6 +491,8 @@
 	 justify-content: center;
 	 color: #000;
  }
+.gea .icon {background: var(--gea);}
+.terra .icon {background: var(--terra);}
  .post4-head .icon img {
 	width: 100px;
 	 height: 100px;
@@ -512,6 +518,8 @@
 	 letter-spacing: 3px;
 	 padding-top: 40px;
  }
+.gea .post4-title {color: var(--gea);}
+.terra .post4-title {color: var(--terra);}
  
  /**BESTIARIO**/
  #tca-quimario {
