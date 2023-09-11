@@ -1550,7 +1550,7 @@
      align-items: center;
      position: relative;
 }
- .pase-pnexp .info {
+ .pase-pnexp .psinfo {
     font-family: 'Noto Sans', sans-serif;
      color: var(--accent);
      width: 33%;
@@ -1559,7 +1559,7 @@
      align-items: center;
      justify-content: center;
 }
- .info b {
+ .psinfo b {
     color: #282828;
 }
  .pase-hitos {
