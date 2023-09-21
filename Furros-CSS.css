@@ -1037,7 +1037,7 @@
 	 display: none;
  }
  /**CRONOLOGÍA**/
- .chronos {
+ #chronos {
 	width: 750px;
 	 margin: 0 auto;
 	 background: var(--tca2);
