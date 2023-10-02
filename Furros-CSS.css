@@ -1807,7 +1807,6 @@ ever-pjs {
 }
  .everpj-left {
     width: 250px;
-     height: 750px;
      display: flex;
      flex-direction: column;
      position: relative;
