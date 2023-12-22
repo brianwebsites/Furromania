@@ -1928,4 +1928,8 @@
      text-transform: uppercase;
      margin: 2px;
 }
- 
+
+/** TABLILLA XMAS **/
+.pj-xmas-icon:after {content:"\e9f7"; font-family: 'cappuccicons'!important; colo:var(--accent);}
+div.post.usergroup-group-gea .pj-xmas-icon {color: var(--gea);} 
+div.post.usergroup-group-terra .pj-xmas-icon {color: var(--terra);} 
