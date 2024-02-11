@@ -1477,7 +1477,7 @@
 
 /**PASE DE BATALLA**/
  .tca-pasebatalla {
-    width: 750px;
+    width: 800px;
      margin: 0 auto;
      background: #000;
      border: 2px solid var(--general);
@@ -1492,10 +1492,12 @@
      position: relative;
 }
  .pase-img {
-    width: 750px;
+    width: 800px;
      height: 500px;
      position: absolute;
-     background: url(https://i.imgur.com/ZUhylYl.png);
+     background-image: url(https://i.imgur.com/ZUhylYl.png);
+	 background-size:cover;
+	 background-position:center;
 }
  .pase-head {
     width: 100%;
@@ -1539,7 +1541,7 @@
      color: var(--accent);
      font-style: italic;
      letter-spacing: 5px;
-     width: 350px;
+     width: 400px;
 }
  .pase-pnexp {
     display: flex;
@@ -1599,7 +1601,7 @@
      color: #999;
      font-family: 'Noto Sans', sans-serif;
      align-items: center;
-     padding: 30px 0;
+     padding: 10px 0;
      border-bottom: 2px solid var(--general);
 }
  .pase-hitos .hitoculta {
@@ -1635,9 +1637,9 @@
      margin-right: 5px;
 }
  .hitoexp .box-exp {
-    width: 195px;
+    width: 145px;
      display: flex;
-     align-item: center;
+     align-items: center;
      flex-wrap: wrap;
      box-sizing: border-box;
      justify-content: flex-end;
