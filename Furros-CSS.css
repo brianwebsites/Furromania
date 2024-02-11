@@ -1600,7 +1600,7 @@
      color: #999;
      font-family: 'Noto Sans', sans-serif;
      align-items: center;
-     padding: 15px 0;
+     padding: 20px 0;
      border-bottom: 2px solid var(--general);
 }
  .pase-hitos .hitoculta {
@@ -1631,12 +1631,11 @@
      color: var(--accent);
 }
  .hitoexp .hito {
-    width: 80%;
-     max-width: 430px;
-     margin-right: 5px;
+    width: 340px; 
+	 margin-right: 10px;
 }
  .hitoexp .box-exp {
-    width: 195px;
+    width: 200px;
      display: flex;
      align-items: center;
      flex-wrap: wrap;
@@ -1659,9 +1658,9 @@
      font-family: 'Noto Sans', monoscope;
 }
  .hitoexp .hitovisto, .hitoexp .tirada-esp {
-    width: 5%;
+    width: 20px;
      box-sizing: border-box;
-     margin-right: 5px;
+     margin-right: 15px;
 }
  .hitovisto:before {
     content:"\f3c6";
