@@ -941,6 +941,9 @@
  .terra .hicon-2:hover .habs-type {
 	color: var(--terra);
  }
+.hybrid .hicon-2:hover .habs-type {
+	color: var(--hybrid);
+ }
  .habs-icons {
 	width: 50px;
 	 height: 50px;
@@ -959,6 +962,9 @@
  }
  .terra .habs-icons {
 	background:var(--terra);
+ }
+ .hybrid .habs-icons {
+	background:var(--hybrid);
  }
  .hicon-2 {
 	color: var(--tca);
@@ -986,11 +992,14 @@
  .terra .habs-icons:hover .hicon-2 {
 	color: var(--terra);
  }
+.hybrid .habs-icons:hover .hicon-2 {
+	color: var(--hybrid);
+ }
  .hab-nombre {
 	width: 100%;
-	 font-size: 35px;
+	 font-size: 28px;
 	 color: var(--accent);
-	 font-family: 'Eb Garamond', serif;
+	 font-family: 'Adieu', sans-serif;
 	 font-weight: 600;
 	 text-align: center;
 	 font-style: italic;
@@ -1002,6 +1011,9 @@
  }
  .terra .hab-nombre {
 	color: var(--terra);
+ }
+.hybrid .hab-nombre {
+	color: var(--hybrid);
  }
  .hab-info {
 	width: 100%;
@@ -1031,6 +1043,9 @@
  }
  .terra .hab-niveles {
 	background: var(--terra);
+ }
+ .hybrid .hab-niveles {
+	background: var(--hybrid);
  }
  .hab-bonus {
 	background: var(--general);
@@ -1081,6 +1096,9 @@
  }
  .terra .hab-eter span, .terra .hab-frio span {
 	color: var(--terra);
+ }
+ .hybrid .hab-eter span, .hybrid .hab-frio span {
+	color: var(--hybrid);
  }
  .hab-container {
 	width: 100%;
