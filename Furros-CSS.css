@@ -59,6 +59,47 @@
 	 width: 100%;
 	 box-sizing: border-box;
  }
+
+.tca-cronnew {
+	font-family: 'Adieu',sans-serif; 
+	font-size: 30px; 
+	color: var(--accent); 
+	font-weight: 600; 
+	padding: 30px 0; 
+	line-height: 100%;
+}
+.tca-cronsub {
+	font-family: 'Overpass Mono', monoscope; 
+	font-size: 13px; 
+	color: #444; 
+	padding: 5px 0px 5px 20px; 
+	border-left: 2px solid var(--accent);
+	line-height: 110%;
+} 
+.tca-croncaps {
+	display: flex; 
+	align-items: center; 
+	width: 100%; 
+	box-sizing: border-box; 
+	margin-bottom: 15px;
+	justify-content: space-between; 
+}
+.tca-crontempo, .tca-croncapi, .tca-cronyear {
+	width: 33%; 
+	font-family: 'Noto Sans Mono', monoscope; 
+	font-size: 11px; 
+	font-weight: bold; 
+	color: #222; 
+	text-transform: uppercase; 
+	line-height: 100%;
+} 
+.tca-cronyear {
+	color: var(--accent); text-align:center;
+} 
+.tca-croncapi {
+	text-align: right;
+}
+
  /***PERSONAJES NO JUGABLES***/
  #tca-pnjs {
 	width: 1000px;
