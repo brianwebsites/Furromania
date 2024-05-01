@@ -485,9 +485,8 @@
  }
  .post-title-2 {
 	font-size: 30px;
-	 font-family: 'Eb Garamond', sans-serif;
+	 font-family: 'Adieu', sans-serif;
 	 text-transform: uppercase;
-	 letter-spacing: 3px;
 	 font-weight: 400;
 	 text-align: center;
 	 padding: 40px 0;
@@ -565,13 +564,11 @@
  }
  .post4-title {
 	font-size: 30px;
-	 font-family: 'EB Garamond', sans-serif;
+	 font-family: 'Adieu', sans-serif;
 	 font-weight: 400;
 	 text-align: center;
 	 color: var(--accent);
-	 font-style: italic;
-	 text-transform: uppercase;
-	 letter-spacing: 3px;
+	 text-transform: uppercase;.post-title-2
 	 padding-top: 40px;
  }
 .gea .post4-title {color: var(--gea);}
