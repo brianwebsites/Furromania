@@ -582,7 +582,7 @@
 	width: 1000px;
 	 margin: 0 auto;
  }
- .quimera-book {
+ .quimera-book-v1, .quimera-book-v2 {
 	width: 100%;
 	 display: flex;
 	 justify-content: center;
