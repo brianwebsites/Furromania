@@ -203,7 +203,7 @@
  }
  .earth .npc-title {
 	border-top: 1px solid var(--earth);
-	 border-bottom: 1px solid var(--earth);
+	border-bottom: 1px solid var(--earth);
  }
 .hybrid .npc-title {
 	border-top: 1px solid var(--hybrid);
@@ -351,7 +351,7 @@
 	border-top: 1px solid var(--earth);
 	 border-bottom: 1px solid var(--earth);
  }
-.earth .npc-datos {
+.hybrid .npc-datos {
 	border-top: 1px solid var(--hybrid);
 	 border-bottom: 1px solid var(--hybrid);
  }
