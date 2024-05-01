@@ -103,8 +103,8 @@
 	 opacity: 0;
  }
  .npc-name {
-	font-family: 'Eb Garamond', serif;
-	 font-size: 58px;
+	font-family: 'Adieu', sans-serif;
+	 font-size: 35px;
 	 color: var(--accent);
 	 font-weight: 400;
 	 font-style: italic;
@@ -126,6 +126,9 @@
  }
  .earth .npc-name {
 	color: var(--earth);
+ }
+ .hybrid .npc-name {
+	color: var(--hybrid);
  }
  .tca-npc:hover .npc-name {
 	transition: 1s;
@@ -163,6 +166,10 @@
 	border-top: 1px solid var(--earth);
 	 border-bottom: 1px solid var(--earth);
  }
+.hybrid .npc-title {
+	border-top: 1px solid var(--hybrid);
+	 border-bottom: 1px solid var(--hybrid);
+ }
  .tca-npc:hover .npc-title {
 	transition: 1s;
 	 right: -100%;
@@ -191,6 +198,9 @@
  .earth .npc-title-icon {
 	background: var(--earth);
  }
+ .hybrid .npc-title-icon {
+	background: var(--hybrid);
+ }
  .tca-npc:hover .npc-title-icon {
 	top: -82%;
 	 transition: 1s;
@@ -213,6 +223,9 @@
  }
  .earth.tca-npc:hover .npc-title-icon {
 	color: var(--earth);
+ }
+.hybrid.tca-npc:hover .npc-title-icon {
+	color: var(--hybrid);
  }
  .npc-overlay {
 	background: transparent;
@@ -238,8 +251,8 @@
 	 opacity: 1;
  }
  .npc-name-sur {
-	font-family: 'Archivo Black', monospace;
-	 font-size: 20px;
+	font-family: 'Adieu', monospace;
+	 font-size: 16px;
 	 text-transform: uppercase;
 	 color: var(--tca);
 	 letter-spacing: 3px;
@@ -298,6 +311,10 @@
  .earth .npc-datos {
 	border-top: 1px solid var(--earth);
 	 border-bottom: 1px solid var(--earth);
+ }
+.earth .npc-datos {
+	border-top: 1px solid var(--hybrid);
+	 border-bottom: 1px solid var(--hybrid);
  }
  /*baules*/
  #baules {
