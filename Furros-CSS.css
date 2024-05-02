@@ -505,6 +505,7 @@
  }
 .gea .post-info-2 {background: var(--gea);}
 .terra .post-info-2 {background: var(--terra);}
+.hybrid .post-info-2 {background: var(--hybrid);}
  .tca-post-4 {
 	width: 100%;
 	 display: flex;
@@ -536,6 +537,7 @@
  }
 .gea .lugar, .gea .date {color: var(--gea);}
 .terra .lugar, .terra .date {color: var(--terra);}
+.hybrid .lugar, .hybrid .date {color: var(--hybrid);}
  .post4-head .icon {
 	width: 100px;
 	 height: 100px;
@@ -548,6 +550,7 @@
  }
 .gea .icon {background: var(--gea);}
 .terra .icon {background: var(--terra);}
+.hybrid .icon {background: var(--hybrid);}
  .post4-head .icon img {
 	width: 100px;
 	 height: 100px;
@@ -573,6 +576,7 @@
  }
 .gea .post4-title {color: var(--gea);}
 .terra .post4-title {color: var(--terra);}
+.hybrid .post4-title {color: var(--hybrid);}
  
  /**BESTIARIO**/
  #tca-quimario {
@@ -1160,6 +1164,9 @@
  .gea .tema-abierto:before {
 	color: var(--gea);
  }
+ .hybrid .tema-abierto:before {
+	color: var(--hybrid);
+ }
  .tema-cerrado:before {
 	content: "\f4a3";
 	 font-family: 'Phosphor';
@@ -1184,6 +1191,9 @@
  }
  .gea .tema-abierto b, .gea .tema-cerrado b {
 	color: var(--gea);
+ }
+ .hybrid .tema-abierto b, .gea .tema-cerrado b {
+	color: var(--hybrid);
  }
  /**RECOMPENSAS**/
  .tca-reward {
@@ -2001,6 +2011,7 @@
 .pj-xmas-icon:after {content:"\e9f7"; font-family: 'cappuccicons'!important; colo:var(--accent);}
 div.post.usergroup-group-gea .pj-xmas-icon {color: var(--gea);} 
 div.post.usergroup-group-terra .pj-xmas-icon {color: var(--terra);} 
+div.post.usergroup-group-hybrid .pj-xmas-icon {color: var(--hybrid);} 
 
 
 /**STOA EUMENES**/
