@@ -1606,10 +1606,9 @@
      box-sizing: border-box;
 }
  .battletitle {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Adieu', sans-serif;
      font-size: 48px;
      color: var(--accent);
-     font-style: italic;
      letter-spacing: 5px;
      width: 400px;
 }
@@ -1654,7 +1653,7 @@
     margin-top: 35px;
 }
  .pase-hitos .title, .pase-botin .title {
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Adieu', sans-serif;
      color: #333;
      font-weight: 600;
      text-transform: uppercase;
@@ -1686,7 +1685,7 @@
 }
  .hitoculta .blocked {
     width: 100%;
-     font-family: 'Archivo Black', sans-serif;
+     font-family: 'Adieu', sans-serif;
      font-size: 15px;
      text-transform: uppercase;
      letter-spacing: 3px;
@@ -1754,7 +1753,7 @@
      justify-content: center;
 }
  .botin-decad .bd-title {
-    font-family: 'EB Garamond', sans-serif;
+    font-family: 'Adieu', sans-serif;
      color: #333;
      font-weight: 600;
      text-transform: uppercase;
@@ -1769,12 +1768,11 @@
      box-sizing: border-box;
      background: var(--tca2);
      font-size: 15px;
-     font-family: 'EB Garamond', serif;
+     font-family: 'Adieu', serif;
      color: var(--accent);
      text-transform: uppercase;
      letter-spacing: 3px;
      font-weight: 500;
-     font-style: italic;
      padding: 20px;
      text-align: center;
      border-bottom: 2px solid var(--general);
@@ -1804,7 +1802,7 @@
      margin: 0 4px 0 4px;
 }
  .bd-dados .bd-dtype {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Adieu', sans-serif;
      color: #999;
      font-size: 20px;
      text-transform: uppercase;
