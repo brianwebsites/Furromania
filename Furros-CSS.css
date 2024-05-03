@@ -1196,7 +1196,7 @@
  .gea .tema-abierto b, .gea .tema-cerrado b {
 	color: var(--gea);
  }
- .hybrid .tema-abierto b, .gea .tema-cerrado b {
+ .hybrid .tema-abierto b, .hybrid .tema-cerrado b {
 	color: var(--hybrid);
  }
  /**RECOMPENSAS**/
