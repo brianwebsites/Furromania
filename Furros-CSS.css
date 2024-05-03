@@ -387,7 +387,7 @@
 	 -moz-filter: grayscale(100%) brightness(18%) contrast(95%);
  }
  .baul-name {
-	font-family: 'Eb Garamond', serif;
+	font-family: 'Adieu', serif;
 	 color: var(--accent);
 	 font-size: 33px;
 	 letter-spacing: 5px;
@@ -402,6 +402,9 @@
  }
  .gea .baul-name {
 	color: var(--gea);
+ }
+ .hybrid .baul-name {
+	color: var(--hybrid);
  }
  .baul-r {
 	width:40%;
@@ -449,6 +452,9 @@
  }
  .gea .baul-enlaces a:link, .gea .baul-enlaces a:visited {
 	color: var(--gea);
+ }
+ .hybrid .baul-enlaces a:link, .gea .baul-enlaces a:visited {
+	color: var(--hybrid);
  }
  .baul-enlaces a:hover {
 	color: var(--general);
