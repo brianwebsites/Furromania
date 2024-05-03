@@ -451,7 +451,7 @@
  .gea .baul-enlaces a:link, .gea .baul-enlaces a:visited {
 	color: var(--gea);
  }
- .hybrid .baul-enlaces a:link, .gea .baul-enlaces a:visited {
+ .hybrid .baul-enlaces a:link, .hybrid .baul-enlaces a:visited {
 	color: var(--hybrid);
  }
  .baul-enlaces a:hover {
