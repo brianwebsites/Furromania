@@ -2034,6 +2034,7 @@ div.post.usergroup-group-hybrid .pj-xmas-icon {color: var(--hybrid);}
 	padding: 40px; 
 	align-items: center; 
 	justify-content: center; 
+	flex-wrap: wrap;
 } 
 .stoa-pjs {
 	width: 25%; 
