@@ -2161,7 +2161,7 @@ div.post.usergroup-group-hybrid .pj-xmas-icon {color: var(--hybrid);}
 } 
 .gea .stoafrase {border-top: 1px solid var(--gea); color: var(--gea);} 
 .terra .stoafrase {border-top: 1px solid var(--terra); color: var(--terra);}
-.hybrid .stoafrase {border-top: 1px solid var(--gea); color: var(--hybrid);} 
+.hybrid .stoafrase {border-top: 1px solid var(--hybrid); color: var(--hybrid);} 
 
 /**MENSAJERÍA**/
 .tca-msj {max-width: 200px; 
