@@ -2618,7 +2618,7 @@ div.post.usergroup-group-hybrid .mejoras-special >.title {
 	-webkit-text-stroke: 2px rgba(75, 55, 110, .1);
 }
 
-.mejoras-special >.slide {
+.mejoras-special > .slide {
 	width: 100%;
 	height: 130px;
 	padding: 35px;
@@ -2655,13 +2655,13 @@ div.post.usergroup-group-terra .slide > .empty {
 }
 
 div.post.usergroup-group-gea .slide > .upgrade,
-div.post.usergroup-group-gea.slide > .empty {
+div.post.usergroup-group-gea .slide > .empty {
 	border: 1px solid rvar(--gea);
 	box-shadow: 0 0 5px var(--gea);
 	}
 
 div.post.usergroup-group-hybrid .slide > .upgrade, 
-div.post.usergroup-group-hybrid.slide > .empty {
+div.post.usergroup-group-hybrid .slide > .empty {
 		border: 1px solid var(--hybrid); 
 		box-shadow: 0 0 5px var(--hybrid);
 	}
