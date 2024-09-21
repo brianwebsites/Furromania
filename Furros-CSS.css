@@ -2709,11 +2709,22 @@ div.post.usergroup-group-gea.slide>.empty {
 		background:var(--hybrid);
 	}
 
-	.mejhab, .mejlib, .mejexp, .mejfue, .mejdado, .mejhab2, .mejpv, .mejdeca, .mejbot, .mejres, .mejsor,
-	.mejref, .mejinv {
-		width:100%; height:52px; padding:15px; box-sizing:border-box; background:var(--general);
-		font-family:'Adieu', sans-serif; text-transform:uppercase; font-weight:600; color:#999; font-size:12px;
-		margin:5px; position:relative; z-index:1; display: flex; align-items: center; border-radius: 8px;
+	.mejhab, .mejlib, .mejexp, .mejfue, .mejdado, .mejhab2, .mejpv, .mejdeca, .mejbot, .mejres, .mejsor, .mejref, .mejinv {
+		width:100%; 
+		height:52px; 
+		padding:15px; 
+		box-sizing:border-box; 
+		background:var(--general);
+		font-family:'Adieu', sans-serif; 
+		text-transform:uppercase; 
+		font-weight:600; color:#999; 
+		font-size:12px;
+		margin:5px; 
+		position:relative; 
+		z-index:1; 
+		display: flex; 
+		align-items: center; 
+		border-radius: 8px;
 	}
 
 	.mejhab:before, .mejlib:before, .mejexp:before, .mejfue:before, .mejdado:before, .mejhab2:before,
