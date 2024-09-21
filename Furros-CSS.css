@@ -2369,6 +2369,7 @@ div.post.usergroup-group-hybrid .tac-subniv>.nivel {
 	position: absolute;
 	text-align: center;
 	color: transparent;
+	text-transform: uppercase
 }
 
 div.post.usergroup-group-terra .header-2>.tac-name {
@@ -2489,6 +2490,83 @@ div.post.usergroup-group-gea .stat-box span:after {
 
 div.post.usergroup-group-hybrid .stat-box span:after {
 	color: var(--hybrid);
+}
+.arbol-mejora {
+	width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	padding-bottom: 30px;
+}
+
+.rama-ataque,
+.rama-defensa,
+.rama-utilidad {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 10px;
+}
+
+.rama {
+	width: 5px;
+	height: 100%;
+	background: var(--general);
+	position: absolute;
+	left: 50%;
+}
+
+.arbol-ramas {
+	display: flex;
+	flex-direction: column;
+	width: 28%;
+	margin: 0 10px;
+}
+
+.rama-name {
+	font-family: 'Adieu', sans-serif;
+	font-size: 30px;
+	color: var(--tca);
+	width: 100%;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	z-index: 1;
+	font-weight: 600;
+}
+
+.rama-ataque .rama:after,
+.rama-defensa .rama:after,
+.rama-utilidad .rama:after {
+	content: "";
+	font-weight: 600;
+	position: absolute;
+	width: 100%;
+	height: var(--progreso);
+	background: var(--neutro);
+}
+
+div.post.usergroup-group-gea .rama-ataque .rama:after,
+div.post.usergroup-group-gea .rama-defensa .rama:after,
+div.post.usergroup-group-gea .rama-utilidad .rama:after {
+	background: var(--gea);
+}
+
+div.post.usergroup-group-terra .rama-ataque .rama:after,
+div.post.usergroup-group-terra .rama-defensa .rama:after,
+div.post.usergroup-group-terra .rama-utilidad .rama:after {
+	background: var(--terra);
+}
+
+div.post.usergroup-group-hybrid .rama-ataque .rama:after,
+div.post.usergroup-group-hybrid .rama-defensa .rama:after,
+div.post.usergroup-group-hybrid .rama-utilidad .rama:after {
+	background: var(--hybrid);
 }
 
 .mejoras-special {
