@@ -2606,19 +2606,19 @@ div.post.usergroup-group-hybrid .mejoras-special {
 	overflow: hidden;
 }
 
-div.post.usergroup-group-terra .mejoras-special>.title {
+div.post.usergroup-group-terra .mejoras-special >.title {
 	-webkit-text-stroke: 2px rgba(43, 113, 87, .1);
 }
 
-div.post.usergroup-group-gea .mejoras-special>.title {
+div.post.usergroup-group-gea .mejoras-special >.title {
 	-webkit-text-stroke: 2px rgba(43, 92, 113, .1);
 }
 
-div.post.usergroup-group-hybrid .mejoras-special>.title {
+div.post.usergroup-group-hybrid .mejoras-special >.title {
 	-webkit-text-stroke: 2px rgba(75, 55, 110, .1);
 }
 
-.mejoras-special>.slide {
+.mejoras-special >.slide {
 	width: 100%;
 	height: 130px;
 	padding: 35px;
@@ -2628,7 +2628,7 @@ div.post.usergroup-group-hybrid .mejoras-special>.title {
 	white-space: nowrap;
 }
 
-.slide >.upgrade,
+.slide > .upgrade,
 .empty {
 	width: 22%;
 	margin: 5px;
@@ -2648,20 +2648,22 @@ div.post.usergroup-group-hybrid .mejoras-special>.title {
 	line-height: 140%;
 }
 
-div.post.usergroup-group-terra .slide >.upgrade,
-div.post.usergroup-group-terra .slide >.empty {
+div.post.usergroup-group-terra .slide > .upgrade,
+div.post.usergroup-group-terra .slide > .empty {
 	border: 1px solid var(--terra);
 	box-shadow: 0 0 5px var(--terra);
 }
 
-div.post.usergroup-group-gea .slide >.upgrade,
-div.post.usergroup-group-gea.slide >.empty {
+div.post.usergroup-group-gea .slide > .upgrade,
+div.post.usergroup-group-gea.slide > .empty {
 	border: 1px solid rvar(--gea);
-	box-shadow: 0 0 5px var(--gea
+	box-shadow: 0 0 5px var(--gea);
 	}
 
-	div.post.usergroup-group-hybrid .slide > .upgrade, div.post.usergroup-group-hybrid.slide > .empty {
-		border: 1px solid var(--hybrid); box-shadow: 0 0 5px var(--hybrid);
+div.post.usergroup-group-hybrid .slide > .upgrade, 
+div.post.usergroup-group-hybrid.slide > .empty {
+		border: 1px solid var(--hybrid); 
+		box-shadow: 0 0 5px var(--hybrid);
 	}
 
 	.slide > .empty {
@@ -2669,19 +2671,38 @@ div.post.usergroup-group-gea.slide >.empty {
 	}
 
 	.arbol-mejora {
-		width:900px; margin:0 auto; display:flex; justify-content:center; align-items:flex-start; padding-bottom:30px;
+		width:900px; 
+		margin:0 auto; 
+		display:flex; 
+		justify-content:center;
+		align-items:flex-start; 
+		padding-bottom:30px;
 	}
 
 	.rama-ataque, .rama-defensa, .rama-utilidad {
-		width:100%; height:auto; display:flex; flex-direction:column; position:relative; justify-content:flex-start; align-items:center; margin:10px;
+		width:100%; 
+		height:auto; 
+		display:flex; 
+		flex-direction:column; 
+		position:relative; 
+		justify-content:flex-start; 
+		align-items:center; 
+		margin:10px;
 	}
 
 	.rama {
-		width:5px; height:100%; background:var(--general); position:absolute; left:50%;
+		width:5px; 
+		height:100%; 
+		background:var(--general); 
+		position:absolute; 
+		left:50%;
 	}
 
 	.arbol-ramas {
-		display:flex; flex-direction:column; width:28%; margin:0 10px;
+		display:flex; 
+		flex-direction:column; 
+		width:28%; 
+		margin:0 10px;
 	}
 
 	.rama-name {
