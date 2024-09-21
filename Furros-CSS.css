@@ -2656,7 +2656,7 @@ div.post.usergroup-group-terra .slide > .empty {
 
 div.post.usergroup-group-gea .slide > .upgrade,
 div.post.usergroup-group-gea .slide > .empty {
-	border: 1px solid rvar(--gea);
+	border: 1px solid var(--gea);
 	box-shadow: 0 0 5px var(--gea);
 	}
 
