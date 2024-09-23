@@ -1083,6 +1083,7 @@
 	 text-transform: uppercase;
 	 align-items: center;
 	 line-height: 130%;
+	 text-align: left;
  }
  .hab-frio {
 	border-left: 1px solid var(--general);
