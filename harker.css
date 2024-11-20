@@ -1,7 +1,7 @@
 /*TABLILLA POST HART*/
 .hartpost {width: 600px; background-color: #0b0b0b; margin: 0 auto;color: #777; font-family: 'Noto Sans', sans-serif; font-size: 13px; box-sizing: border-box; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center;}
 .hartwith {width: 100%; box-sizing: border-box; display: flex; align-items: center; padding: 80px 80px 55px 80px;}
-.withpj {width: 100%; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 12px; text-transform: uppercase; color: var(--gea); font-weight: 900; letter-spacing: 2px; margin-left: 40px;}
+.withpj {width: 100%; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); font-weight: 900; letter-spacing: 2px; margin-left: 40px;}
 .terra .withpj {color: var(--terra);}
 .hybrid .withpj {color: var(--hybrid);}
 .hartgif {width: 50px; height: 50px; border-left: 1px solid transparent; border-radius: 100%; box-shadow: 0 0 30px var(--gea); border: 1px solid rgba(43, 92,113, .35);}
@@ -14,5 +14,5 @@
 .hartdate {width: 100%; box-sizing: border-box; padding: 0 80px; display: flex; align-items: center; margin-top: 60px;}
 .hartline {width: 65%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-right: 150px solid #222;}
 .hartline2 {width: 80%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-left: 150px solid #222;}
-.hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 10px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
+.hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
 .harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
