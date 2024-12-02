@@ -14,5 +14,8 @@
 .hartdate {width: 100%; box-sizing: border-box; padding: 0 80px; display: flex; align-items: center; margin-top: 60px;}
 .hartline {width: 65%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-right: 150px solid #222;}
 .hartline2 {width: 80%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-left: 150px solid #222;}
+.terra .hartline {background: var(--terra);}
+.terra .hartline2 {background: var(--tera);}
 .hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
+.terra .hartdate > .hdate {color: var(--terra);}
 .harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
