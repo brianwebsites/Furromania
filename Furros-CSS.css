@@ -2846,10 +2846,10 @@ div.post.usergroup-group-hybrid .slide > .empty {
 	}
 
 /*tablilla tramas*/
-.tca-tab-3{width:620px; margin:0 auto; background:transparent; box-sizing:border-box; display:flex; flex-direction:column; align-content:center;} 
-.tca-tab-t3{font-family:'Adieu', sans-serif; font-size:50px; color:#222; text-align:center; font-weight:600; letter-spacing:-2px; padding:30px 0px 30px 0px; line-height:100%;} 
-.tca-post-3{padding:25px 45px 45px 45px; text-align:justify; font-size:13px; font-family:'Noto Sans', sans-serif; line-height:160%;} 
-.tca-info-3{width:100%; display:flex; justify-content:space-between; align-items:center; border-top:2px solid var(--general); border-bottom:2px solid var(--general); box-sizing:border-box; padding: 15px; font-family:'Noto Sans', sans-serif; font-size:11px; font-weight:600;} 
+.tca-tab-3 {width:620px; margin:0 auto; background:transparent; box-sizing:border-box; display:flex; flex-direction:column; align-content:center;} 
+.tca-tab-t3 {font-family:'Adieu', sans-serif; font-size:50px; color:#222; text-align:center; font-weight:600; letter-spacing:-2px; padding:30px 0px 30px 0px; line-height:100%;} 
+.tca-post-3 {padding:25px 45px 45px 45px; text-align:justify; font-size:13px; font-family:'Noto Sans', sans-serif; line-height:160%;} 
+.tca-info-3 {width:620px; display:flex; justify-content:space-between; align-items:center; border-top:2px solid var(--general); border-bottom:2px solid var(--general); box-sizing:border-box; padding: 15px; font-family:'Noto Sans', sans-serif; font-size:11px; font-weight:600;} 
 .trama-date {font-family:'Adieu', sans-serif; font-size:13px; color:var(--accent);} 
 .pj-type-icon, .pj-xmas-icon{padding-bottom:15px; text-align:center; font-size:25px;} 
 .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--accent); text-shadow:0 0 15px var(--accent);}
@@ -2874,8 +2874,8 @@ div.post.usergroup-group-pnj .pj-type:after {text-shadow:0 0 15px var(--npc);}
 
 .trama-pic {width: 500px; height: 350px; margin: 0 auto; border: 2px solid var(--general);}
 .trama-pic img {width: 500px; height: 350px; filter: grayscale(60%) brightness(35%) contrast(105%); -webkit-filter: grayscale(60%) brightness(35%) contrast(105%); -moz-filter:grayscale(60%) brightness(35%) contrast(105%); object-fit: cover; object-position: center;}
-.quoevn {margin: 0 auto; width: 460px; height: auto; position: relative; border: 1px solid #181818;background: #000;margin-top:20px;}
-.quoic {position: absolute; top: -15px; left: 15px; padding: 10px; background: #000;height: 10px;width:15px;display: flex;}
+.quoevn {margin: 0 auto; width: 460px; height: auto; position: relative; border: 1px solid #181818; background: #000; margin-top:20px;}
+.quoic {position: absolute; top: -15px; left: 15px; padding: 10px; background: #000; height: 10px; width:15px; display: flex;}
 .quoic i {font-size:15px; color: var(--accent);}
 .quotxt {padding:20px; font-family: "Noto Sans", serif; font-size:12px; color: #777; font-style:italic; text-align:right;}
 .quotxt b {font-size:10px; text-transform: uppercase;position: relative; top: 5px;display: flex;justify-content: flex-end;}
