@@ -2862,9 +2862,9 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .viper .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--gea);}
 .juicio .pj-type-icon:after{content:"\ebc4"; font-family: IcoFont !important;}
 div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-mas b, div.post.usergroup-group-gea .juicio .pj-type-icon:after {color:var(--gea);} 
-div.post.usergroup-group-gea .pj-type:after {text-shadow:0 0 15px var(--gea);}
+div.post.usergroup-group-gea .pj-type-icon:after {text-shadow:0 0 15px var(--gea);}
 div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after {color:var(--terra);} 
-div.post.usergroup-group-terra .pj-type:after {text-shadow:0 0 15px var(--terra);}
+div.post.usergroup-group-terra .pj-type-icon:after {text-shadow:0 0 15px var(--terra);}
 div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after {color:var(--hybrid);}
 div.post.usergroup-group-hybrid .pj-type-icon:after {text-shadow:0 0 15px var(--hybrid;}
 div.post.group-pnj.trama-date, div.post.group-pnj.trama-mas b, div.post.group-pnj.juicio.pj-type-icon:after {color:var(--npc);}
