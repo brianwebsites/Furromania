@@ -2869,8 +2869,8 @@ div.post.usergroup-group-staff .trama-date, div.post.usergroup-group-staff .tram
 div.post.usergroup-group-staff .pj-type:after {text-shadow:0 0 15px var(--staff);}
 div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after {color:var(--hybrid);}
 div.post.usergroup-group-hybrid .pj-type:after {text-shadow:0 0 15px var(--hybrid;}
-div.post.usergroup-group-pnj .trama-date, div.post.usergroup-group-pnj .trama-mas b, div.post.usergroup-group-pnj .juicio .pj-type-icon:after {color:var(--npc);}
-div.post.usergroup-group-pnj .pj-type:after {text-shadow:0 0 15px var(--npc);}
+div.post.group-pnj .trama-date, div.post.group-pnj .trama-mas b, div.post.group-pnj .juicio .pj-type-icon:after {color:var(--npc);}
+div.post.group-pnj .pj-type:after {text-shadow:0 0 15px var(--npc);}
 
 .trama-pic {width: 500px; height: 350px; margin: 0 auto; border: 2px solid var(--general);}
 .trama-pic img {width: 500px; height: 350px; filter: grayscale(60%) brightness(35%) contrast(105%); -webkit-filter: grayscale(60%) brightness(35%) contrast(105%); -moz-filter:grayscale(60%) brightness(35%) contrast(105%); object-fit: cover; object-position: center;}
