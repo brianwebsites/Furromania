@@ -2855,7 +2855,7 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--accent); text-shadow:0 0 15px var(--accent);}
 .trama-lugar {font-family:'Adieu', sans-serif; font-size:10px; color:#333; font-weight:600; text-align:right; letter-spacing: 2px; text-transform:uppercase;} 
 .tca-trama {font-size:9px; letter-spacing: 3px; text-transform:uppercase; text-align:center; border-bottom:2px solid var(--general); padding-bottom:10px; font-weight:700;}
-.trama-mas{background:#080808; padding:25px; font-size:13px;}
+.trama-mas {background:#080808; padding:25px; font-size:12px;}
 .python .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--terra);} 
 .mamba .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--terra);} 
 .krait .pj-type-icon:after{content:"\e821"; font-family:IcoFont!important; color:var(--gea);}
