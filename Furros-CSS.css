@@ -2855,7 +2855,7 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--accent); text-shadow:0 0 15px var(--accent);}
 .trama-lugar {font-family:'Adieu', sans-serif; font-size:10px; color:#333; font-weight:600; text-align:right; letter-spacing: 2px; text-transform:uppercase;} 
 .tca-trama {font-size:9px; letter-spacing: 3px; text-transform:uppercase; text-align:center; border-bottom:2px solid var(--general); padding-bottom:10px; font-weight:700;}
-.trama-mas{background:#080808; padding:25px; font-size:12px;}
+.trama-mas{background:#080808; padding:25px; font-size:13px;}
 .python .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--terra);} 
 .mamba .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--terra);} 
 .krait .pj-type-icon:after{content:"\e821"; font-family:IcoFont!important; color:var(--gea);}
@@ -2865,8 +2865,6 @@ div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-ma
 div.post.usergroup-group-gea .pj-type:after {text-shadow:0 0 15px var(--gea);}
 div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after {color:var(--terra);} 
 div.post.usergroup-group-terra .pj-type:after {text-shadow:0 0 15px var(--terra);}
-div.post.usergroup-group-staff .trama-date, div.post.usergroup-group-staff .trama-mas b, div.post.usergroup-group-staff .juicio .pj-type-icon:after {color:var(--division);} 
-div.post.usergroup-group-staff .pj-type:after {text-shadow:0 0 15px var(--staff);}
 div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after {color:var(--hybrid);}
 div.post.usergroup-group-hybrid .pj-type:after {text-shadow:0 0 15px var(--hybrid;}
 div.post.group-pnj .trama-date, div.post.group-pnj .trama-mas b, div.post.group-pnj .juicio .pj-type-icon:after {color:var(--npc);}
