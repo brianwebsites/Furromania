@@ -2847,7 +2847,7 @@ div.post.usergroup-group-hybrid .slide > .empty {
 
 /*tablilla tramas*/
 .tca-tab-3 {width:620px; margin:0 auto; background:transparent; box-sizing:border-box; display:flex; flex-direction:column; align-content:center;} 
-.tca-tab-t3 {font-family:'Adieu', sans-serif; font-size:45px; color:#222; text-align:center; font-weight:600; letter-spacing:-2px; padding:30px 0px 30px 0px; line-height:100%;} 
+.tca-tab-t3 {font-family:'Adieu', sans-serif; font-size:36px; color:#222; text-align:center; font-weight:600; letter-spacing:-2px; padding:30px 0px 30px 0px; line-height:100%; text-transform: uppercase;} 
 .tca-post-3 {padding:25px 45px 45px 45px; text-align:justify; font-size:13px; font-family:'Noto Sans', sans-serif; line-height:160%;} 
 .tca-info-3 {width:620px; display:flex; justify-content:space-between; align-items:center; border-top:2px solid var(--general); border-bottom:2px solid var(--general); box-sizing:border-box; padding: 15px; font-family:'Noto Sans', sans-serif; font-size:11px; font-weight:600;} 
 .trama-date {font-family:'Adieu', sans-serif; font-size:13px; color:var(--accent);} 
