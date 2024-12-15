@@ -19,7 +19,7 @@
 .terra .hartline {background: var(--terra);}
 .terra .hartline2 {background: var(--terra);}
 .hybrid .hartline {background: var(--hybrid);}
-.hybrida .hartline2 {background: var(--hybrid);}
+.hybrid .hartline2 {background: var(--hybrid);}
 .hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
 .terra .hartdate > .hdate {color: var(--terra);}
 .hybrid .hartdate > .hdate {color: var(--hybrid);}
