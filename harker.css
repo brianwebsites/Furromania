@@ -12,10 +12,15 @@
               -webkit-filter: grayscale(100%) brightness(43%) contrast(95%);-moz-filter: grayscale(100%) brightness(43%) contrast(95%);}
 .hartitle {width: 100%; box-sizing: border-box; padding: 0 80px; font-family: 'Geologica'; text-transform: uppercase; color: #bdbdbd; font-size: 70px; letter-spacing: 5px; line-height: 85%; font-weight:500;}
 .hartdate {width: 100%; box-sizing: border-box; padding: 0 80px; display: flex; align-items: center; margin-top: 60px;}
-.hartline {width: 65%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-right: 150px solid #222;}
-.hartline2 {width: 80%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; border-left: 150px solid #222;}
+.hartline {width: 100%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; display: flex;}
+.hartline:after {width: 100%; height: 2px; background: #222; content: ""; flex-grow: 1; margin-left: 40%;}
+.hartline2 {width: 100%; background: var(--gea); height: 2px; border-radius: 3px; box-sizing: border-box; display: flex;}
+.hartline2:before {width: 100%; height: 2px; background: #222; content: ""; flex-grow: 1; margin-right: 40%;}
 .terra .hartline {background: var(--terra);}
-.terra .hartline2 {background: var(--tera);}
+.terra .hartline2 {background: var(--terra);}
+.hybrid .hartline {background: var(--hybrid);}
+.hybrida .hartline2 {background: var(--hybrid);}
 .hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
 .terra .hartdate > .hdate {color: var(--terra);}
+.hybrid .hartdate > .hdate {color: var(--hybrid);}
 .harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
