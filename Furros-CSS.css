@@ -2864,9 +2864,9 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .burn .pj-type-icon:after{content: "\ef2b";font-family: IcoFont !important;}
 div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-mas b, div.post.usergroup-group-gea .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--gea);} 
 div.post.usergroup-group-gea .pj-type-icon:after {text-shadow:0 0 15px var(--gea);}
-div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--terra);} 
+div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after, div.post.usergroup-group-terra .burn .pj-type-icon:after {color:var(--terra);} 
 div.post.usergroup-group-terra .pj-type-icon:after {text-shadow:0 0 15px var(--terra);}
-div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--hybrid);}
+div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after, div.post.usergroup-group-hybrid .burn .pj-type-icon:after {color:var(--hybrid);}
 div.post.usergroup-group-hybrid .pj-type-icon:after {text-shadow:0 0 15px var(--hybrid);}
 div.post.group-pnj .trama-date, div.post.group-pnj .trama-mas b, div.post.group-pnj .juicio .pj-type-icon:after, div.post.group-pnj .burn .pj-type-icon:after {color:var(--npc);}
 div.post.group-pnj .pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
