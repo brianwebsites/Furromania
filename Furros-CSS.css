@@ -2861,6 +2861,7 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .krait .pj-type-icon:after{content:"\e821"; font-family:IcoFont!important; color:var(--gea);}
 .viper .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--gea);}
 .juicio .pj-type-icon:after{content:"\ebc4"; font-family: IcoFont !important;}
+.burn .pj-type-icon:after{content: "\ef2b";font-family: IcoFont !important;}
 div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-mas b, div.post.usergroup-group-gea .juicio .pj-type-icon:after {color:var(--gea);} 
 div.post.usergroup-group-gea .pj-type-icon:after {text-shadow:0 0 15px var(--gea);}
 div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after {color:var(--terra);} 
