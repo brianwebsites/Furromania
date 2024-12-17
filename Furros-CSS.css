@@ -2862,14 +2862,14 @@ div.post.usergroup-group-hybrid .slide > .empty {
 .viper .pj-type-icon:after{content:""; font-family:RPGAwesome; color:var(--gea);}
 .juicio .pj-type-icon:after{content:"\ebc4"; font-family: IcoFont !important;}
 .burn .pj-type-icon:after{content: "\ef2b";font-family: IcoFont !important;}
-div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-mas b, div.post.usergroup-group-gea .juicio .pj-type-icon:after {color:var(--gea);} 
+div.post.usergroup-group-gea .trama-date, div.post.usergroup-group-gea .trama-mas b, div.post.usergroup-group-gea .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--gea);} 
 div.post.usergroup-group-gea .pj-type-icon:after {text-shadow:0 0 15px var(--gea);}
-div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after {color:var(--terra);} 
+div.post.usergroup-group-terra .trama-date, div.post.usergroup-group-terra .trama-mas b, div.post.usergroup-group-terra .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--terra);} 
 div.post.usergroup-group-terra .pj-type-icon:after {text-shadow:0 0 15px var(--terra);}
-div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after {color:var(--hybrid);}
+div.post.usergroup-group-hybrid .trama-date, div.post.usergroup-group-hybrid .trama-mas b, div.post.usergroup-group-hybrid .juicio .pj-type-icon:after, div.post.usergroup-group-gea .burn .pj-type-icon:after {color:var(--hybrid);}
 div.post.usergroup-group-hybrid .pj-type-icon:after {text-shadow:0 0 15px var(--hybrid);}
-div.post.group-pnj.trama-date, div.post.group-pnj.trama-mas b, div.post.group-pnj.juicio.pj-type-icon:after {color:var(--npc);}
-div.post.group-pnj.pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
+div.post.group-pnj .trama-date, div.post.group-pnj .trama-mas b, div.post.group-pnj .juicio .pj-type-icon:after, div.post.group-pnj .burn .pj-type-icon:after {color:var(--npc);}
+div.post.group-pnj .pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
 
 .trama-pic {width: 500px; height: 350px; margin: 0 auto; border: 2px solid var(--general);}
 .trama-pic img {width: 500px; height: 350px; filter: grayscale(60%) brightness(35%) contrast(105%); -webkit-filter: grayscale(60%) brightness(35%) contrast(105%); -moz-filter:grayscale(60%) brightness(35%) contrast(105%); object-fit: cover; object-position: center;}
