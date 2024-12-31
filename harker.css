@@ -20,7 +20,7 @@
 .terra .hartline2 {background: var(--terra);}
 .hybrid .hartline {background: var(--hybrid);}
 .hybrid .hartline2 {background: var(--hybrid);}
-.hartdate > .hdate {width: 40%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
+.hartdate > .hdate {width: 100%; font-weight: 100; text-align: right; margin-left: 10px; box-sizing: border-box; font-family: 'Tilt Neon', display; font-size: 9px; text-transform: uppercase; color: var(--gea); letter-spacing: 4px; }
 .terra .hartdate > .hdate {color: var(--terra);}
 .hybrid .hartdate > .hdate {color: var(--hybrid);}
 .harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
