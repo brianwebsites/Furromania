@@ -24,3 +24,11 @@
 .terra .hartdate > .hdate {color: var(--terra);}
 .hybrid .hartdate > .hdate {color: var(--hybrid);}
 .harttext {width: 100%; padding: 55px 80px 80px 80px; box-sizing: border-box; text-align: justify;}
+
+
+/*FIRMA HART*/
+.hartfrm {width: 250px; height: 250px; border: 10px solid #181818; position: relative; margin: 0 auto;}
+.hartimg {position: absolute; width: 248px; height: 248px; background: url(https://imgur.com/6sU9NCZ.png); border: 1px solid #8a8190; overflow: hidden; box-sizing: border-box;}
+.hartfrm:hover .hartf-1 { transition: .6s; opacity: 1;}
+.hartf-1 {font-family: 'Tilt Neon'; font-size: 8px; text-transform: uppercase; color: #eee; letter-spacing: 3px; position: relative; width: 100%; box-sizing: border-box; height: 250px; text-align: justify; background: rgba(128,129,144, .5); backdrop-filter: blur(10px); padding: 25px; transition: .6s; opacity: 0; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.hartf-1 span {font-family: 'Playfair Display', serif; font-size: 68px; text-transform: lowercase; letter-spacing: -4px; font-weight: bold; box-sizing: border-box;}
