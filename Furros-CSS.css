@@ -3005,6 +3005,10 @@ div.post.group-pnj .pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
   opacity: 0.15;
 }
 
+.svdates {width: 100%; box-sizing: border-box; display: flex; justify-content: space-between; align-items: center; padding: 30px; position: relative;} 
+.svfecha, .svdonde {width: auto; color: white; text-transform: uppercase; font-family: 'Adieu', sans-serif; font-size: 9px; background: var(--svtca); border-radius: 15px; padding: 5px;} 
+.svdonde {text-align: right;}
+
 .svbox {
   width: 100%;
   padding: 30px;
@@ -3050,7 +3054,9 @@ div.post.group-pnj .pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
   text-align: justify;
   font-family: "Noto Sans", sans-serif;
   margin-top: 20px;
-color: #ccc;
+	min-height: 150px;
+height: 200px;
+    overflow: auto;
 }
 
 .svinfo {
