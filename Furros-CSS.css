@@ -3044,7 +3044,7 @@ div.post.group-pnj .pj-type-icon:after {text-shadow:0 0 15px var(--npc);}
   font-family: "cappuccicons" !important;
 }
 
-.svbox > .text {
+.svbox > .svtext {
   font-size: 13px;
   color: #ccc;
   text-align: justify;
