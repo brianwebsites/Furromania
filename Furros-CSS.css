@@ -3177,6 +3177,6 @@ color: #ccc;
   transition: 0.6s;
 }
 
-.svtitle2 {font-family: 'Adieu', sans-serif; font-size: 20px; text-transform: uppercase; padding-bottom: 10px; border-bottom: 2px solid var(--svtca); color: white;} 
+.svtitle2 {font-family: 'Adieu', sans-serif; font-size: 15px; text-transform: uppercase; padding-bottom: 10px; border-bottom: 2px solid var(--svtca); color: white;} 
 .svtitle2 b {color: var(--svtca);} 
-.svinfo span {color: var(--svtca); text-transform: uppercase; font-weight: bold; font-size: 11px;}
+.svinfo span {color: var(--svtca); text-transform: uppercase; font-weight: bold; font-size: 12px;}
