@@ -68,3 +68,26 @@
 .rb3-4e span {position: absolute;}
 .rb3-4e2 {backdrop-filter: blur(10px); background: rgba(64,32,56, .5); position: relative; opacity: 0; width: 100%; height: 100%; box-sizing: border-box; display: flex; justify-content: center; align-items: center; font-family: 'Kode Mono', monospace; font-size: 9px; text-transform: uppercase; color: #fff; letter-spacing: 2px; text-align: justify;}
 .rb3-4e a, .rb3-4e a:visited {color: var(--textobase); text-decoration: none;}
+
+/*-- CRONO -- */
+.rc1 {width: 800px; height: auto; border: 1px solid #111; margin: 0 auto; display: flex; flex-direction: column; position: relative; }
+.rc1-back {width: 100%; height: 100%; background: url(https://i.pinimg.com/736x/0e/63/54/0e6354325a6993a5d59550ff8a56d4a9.jpg); position: absolute; background-size: cover; background-position: center; filter: grayscale(100%) brightness(15%); -webkit-filter: grayscale(100%) brightness(15%); -moz-filter: grayscale(100%) brightness(15%);}
+.rc1-1 {width: 100%; height: 60px; box-sizing: border-box; backdrop-filter: blur(10px); border-bottom: 1px solid #111; display: flex; align- items: center; justify-content: center;}
+.rc1-1n {width: 85%; font-family: 'Bodoni Moda', serif; font-size: 15px; color: var(--textobase); text-transform: uppercase; font-weight: 300;padding: 0 30px; display: flex; align-items: center;}
+.rc1-1i {width: 15%; height: 100%; display: flex; align-items: center; justify-content: center; color: var(--cas); border-left: 1px solid #111; box-sizing: border-box; padding: 20px; text-align: center; font-size: 25px;}
+.rc1-2 {width: 100%; height: 390px; display: flex; justify-content: space-around; flex-wrap: wrap;}
+.rc1-2t {width: 50%; height: 100%; box-sizing: border-box; backdrop-filter: blur(3px);border-right: 1px solid #111;}
+.rc1-2tt {width: 100%; height: 10%; box-sizing: border-box; padding: 10px; background: rgba(64,32,56, .3); color: var(--textobase); font-family: 'Kode Mono', monospace; font-size: 10px; text-transform: uppercase; color: #fff; letter-spacing: 2px; text-align: center; display: flex; align-items: center; justify-content: center;}
+.rc1-2tb {width: 100%; height: 90%; box-sizing: border-box; overflow: auto; display: flex; flex-direction: column;}
+.rtbl {width: 100%; height: 70px; font-family: 'Roboto', sans-serif; color: var(--textobase); font-size: 11px; text-transform: uppercase; box-sizing: border-box; border-bottom: 1px solid #111; display: flex; align-items: center;}
+.rtbl > .open, .rtbl > .closed {width: 10%; height: 100%; box-sizing: border-box; padding: 15px; color: var(--cas); border-right: 1px solid #111; display: flex; align-items: center; justify-content: center;}
+.closed:before {content: "\e222"; font-family: "Phosphor" !important; font-size: 17px; color: #333;}
+.open:before {content: "\e220"; font-family: "Phosphor" !important; font-size: 17px;}
+.rtbl-2 {width: 50%; height: 100%; box-sizing: border-box; border-right: 1px solid #111; display: flex; flex-direction: column;}
+.rtbl-2 enl {width: 100%; height: 50%; box-sizing: border-box; border-bottom: 1px solid #111; padding: 10px 15px;}
+.rtbl-2 enl a, .rtbl-2 enl a:visited {color: var(--textobase);}
+.rtbl-2 inf {width: 100%; height: 50%; box-sizing: border-box; padding: 10px 15px; font-family: 'Kode Mono', monospace; font-size: 10px; letter-spacing: 3px; color: var(--cas);}
+.rtbl-3 {width: 25%; height: 100%; display: flex; align-items: center; justify-content: center; box-sizing: border-box; padding: 20px; font-family: 'Kode Mono', monospace; font-size: 14px;}
+.cas .rtbl-3 {color: var(--cas);}
+.cam .rtbl-3 {color: var(--cam);}
+.rtbl-d {width: 15%; height: 100%; box-sizing: border-box; padding: 15px; font-family: "Bodoni Moda", serif; font-size: 15px; display: flex; aling-items: center; justify-content: center; border-right: 1px solid #111; text-align: center;}
