@@ -37,6 +37,8 @@
 :root {
   --cas: #402038;
   --textobase: #a6a6a6;
+  --cam: #1E364D;
+  --hos: #28402C;
 }
 
 .rb1 {width: 800px; height: 450px; border: 1px solid #111; margin: 0 auto; display: flex;}
